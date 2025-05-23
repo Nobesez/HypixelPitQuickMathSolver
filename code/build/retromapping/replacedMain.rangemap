@@ -1,0 +1,174 @@
+Symbol range map extraction starting
+Processing 2 files
+processing dev\powns\automath\AutoMathMod.java
+@|dev\powns\automath\AutoMathMod.java|8|26|dev.powns.automath|package|dev.powns.automath|(file)
+Class Start: dev.powns.automath.AutoMathMod
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|dev\powns\automath\AutoMathMod.java|439|443|init|method|dev.powns.automath.AutoMathMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|dev\powns\automath\AutoMathMod.java|444|466|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|dev\powns\automath\AutoMathMod.java|467|472|event|param|dev.powns.automath.AutoMathMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|dev\powns\automath\AutoMathMod.java|488|504|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|dev\powns\automath\AutoMathMod.java|505|513|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|dev\powns\automath\AutoMathMod.java|516|519|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+      @|dev\powns\automath\AutoMathMod.java|522|530|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|dev\powns\automath\AutoMathMod.java|535|551|AutoMathListener|class|dev.powns.automath.listener.AutoMathListener
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : dev.powns.automath.AutoMathMod
+endProcessing dev\powns\automath\AutoMathMod.java
+
+processing dev\powns\automath\listener\AutoMathListener.java
+@|dev\powns\automath\listener\AutoMathListener.java|8|35|dev.powns.automath.listener|package|dev.powns.automath.listener|(file)
+Class Start: dev.powns.automath.listener.AutoMathListener
+   @|dev\powns\automath\listener\AutoMathListener.java|340|349|Minecraft|class|net.minecraft.client.Minecraft
+   @|dev\powns\automath\listener\AutoMathListener.java|350|352|mc|field|dev.powns.automath.listener.AutoMathListener|mc|
+   @|dev\powns\automath\listener\AutoMathListener.java|355|364|Minecraft|class|net.minecraft.client.Minecraft
+   @|dev\powns\automath\listener\AutoMathListener.java|365|377|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   Method Start: onMathSolveMessage(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|dev\powns\automath\listener\AutoMathListener.java|412|430|onMathSolveMessage|method|dev.powns.automath.listener.AutoMathListener|onMathSolveMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|dev\powns\automath\listener\AutoMathListener.java|431|454|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|dev\powns\automath\listener\AutoMathListener.java|455|460|event|param|dev.powns.automath.listener.AutoMathListener|onMathSolveMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|dev\powns\automath\listener\AutoMathListener.java|465|469|Long|class|java.lang.Long
+      @|dev\powns\automath\listener\AutoMathListener.java|486|492|System|class|java.lang.System
+      @|dev\powns\automath\listener\AutoMathListener.java|493|510|currentTimeMillis|method|java.lang.System|currentTimeMillis|()J
+      @|dev\powns\automath\listener\AutoMathListener.java|517|523|String|class|java.lang.String
+      @|dev\powns\automath\listener\AutoMathListener.java|537|542|event|param|dev.powns.automath.listener.AutoMathListener|onMathSolveMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|dev\powns\automath\listener\AutoMathListener.java|543|550|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|dev\powns\automath\listener\AutoMathListener.java|551|569|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|dev\powns\automath\listener\AutoMathListener.java|590|600|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|dev\powns\automath\listener\AutoMathListener.java|639|645|String|class|java.lang.String
+      @|dev\powns\automath\listener\AutoMathListener.java|671|678|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|dev\powns\automath\listener\AutoMathListener.java|712|718|Thread|class|java.lang.Thread
+      @|dev\powns\automath\listener\AutoMathListener.java|719|724|sleep|method|java.lang.Thread|sleep|(J)V
+      @|dev\powns\automath\listener\AutoMathListener.java|736|738|mc|field|dev.powns.automath.listener.AutoMathListener|mc
+      @|dev\powns\automath\listener\AutoMathListener.java|739|748|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|dev\powns\automath\listener\AutoMathListener.java|749|764|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|dev\powns\automath\listener\AutoMathListener.java|776|780|eval|method|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D
+      @|dev\powns\automath\listener\AutoMathListener.java|793|800|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|dev\powns\automath\listener\AutoMathListener.java|819|823|Long|class|java.lang.Long
+      @|dev\powns\automath\listener\AutoMathListener.java|840|846|System|class|java.lang.System
+      @|dev\powns\automath\listener\AutoMathListener.java|847|864|currentTimeMillis|method|java.lang.System|currentTimeMillis|()J
+      @|dev\powns\automath\listener\AutoMathListener.java|888|890|mc|field|dev.powns.automath.listener.AutoMathListener|mc
+      @|dev\powns\automath\listener\AutoMathListener.java|891|900|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|dev\powns\automath\listener\AutoMathListener.java|901|915|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|dev\powns\automath\listener\AutoMathListener.java|920|937|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|dev\powns\automath\listener\AutoMathListener.java|938|956|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|dev\powns\automath\listener\AutoMathListener.java|957|962|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|dev\powns\automath\listener\AutoMathListener.java|1038|1047|Exception|class|java.lang.Exception
+   Method End: onMathSolveMessage(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+   Method Start: eval(Ljava/lang/String;)D
+      @|dev\powns\automath\listener\AutoMathListener.java|1142|1146|eval|method|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D
+      @|dev\powns\automath\listener\AutoMathListener.java|1153|1159|String|class|java.lang.String
+      @|dev\powns\automath\listener\AutoMathListener.java|1160|1163|str|param|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D|str|0
+      @|dev\powns\automath\listener\AutoMathListener.java|1180|1186|Object|class|java.lang.Object
+      Anon Class Start: dev.powns.automath.listener.AutoMathListener$1
+         @|dev\powns\automath\listener\AutoMathListener.java|1198|1201|pos|field|dev.powns.automath.listener.AutoMathListener$1|pos|
+         @|dev\powns\automath\listener\AutoMathListener.java|1208|1210|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch|
+         Method Start: nextChar()V
+            @|dev\powns\automath\listener\AutoMathListener.java|1221|1229|nextChar|method|dev.powns.automath.listener.AutoMathListener$1|nextChar|()V
+            @|dev\powns\automath\listener\AutoMathListener.java|1238|1240|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|1246|1249|pos|field|dev.powns.automath.listener.AutoMathListener$1|pos
+            @|dev\powns\automath\listener\AutoMathListener.java|1252|1255|str|param|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D|str|0
+            @|dev\powns\automath\listener\AutoMathListener.java|1256|1262|length|method|java.lang.CharSequence|length|()I
+            @|dev\powns\automath\listener\AutoMathListener.java|1268|1271|str|param|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D|str|0
+            @|dev\powns\automath\listener\AutoMathListener.java|1272|1278|charAt|method|java.lang.CharSequence|charAt|(I)C
+            @|dev\powns\automath\listener\AutoMathListener.java|1279|1282|pos|field|dev.powns.automath.listener.AutoMathListener$1|pos
+         Method End: nextChar()V
+         Method Start: eat(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|1307|1310|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|1315|1324|charToEat|param|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z|charToEat|0
+            @|dev\powns\automath\listener\AutoMathListener.java|1339|1341|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|1350|1358|nextChar|method|dev.powns.automath.listener.AutoMathListener$1|nextChar|()V
+            @|dev\powns\automath\listener\AutoMathListener.java|1370|1372|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|1376|1385|charToEat|param|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z|charToEat|0
+            @|dev\powns\automath\listener\AutoMathListener.java|1394|1402|nextChar|method|dev.powns.automath.listener.AutoMathListener$1|nextChar|()V
+         Method End: eat(I)Z
+         Method Start: parse()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1464|1469|parse|method|dev.powns.automath.listener.AutoMathListener$1|parse|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1478|1486|nextChar|method|dev.powns.automath.listener.AutoMathListener$1|nextChar|()V
+            @|dev\powns\automath\listener\AutoMathListener.java|1505|1520|parseExpression|method|dev.powns.automath.listener.AutoMathListener$1|parseExpression|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1532|1535|pos|field|dev.powns.automath.listener.AutoMathListener$1|pos
+            @|dev\powns\automath\listener\AutoMathListener.java|1538|1541|str|param|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D|str|0
+            @|dev\powns\automath\listener\AutoMathListener.java|1542|1548|length|method|java.lang.CharSequence|length|()I
+            @|dev\powns\automath\listener\AutoMathListener.java|1562|1578|RuntimeException|class|java.lang.RuntimeException
+            @|dev\powns\automath\listener\AutoMathListener.java|1602|1604|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+         Method End: parse()D
+         Method Start: parseExpression()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1637|1652|parseExpression|method|dev.powns.automath.listener.AutoMathListener$1|parseExpression|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1672|1681|parseTerm|method|dev.powns.automath.listener.AutoMathListener$1|parseTerm|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1714|1717|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|1729|1738|parseTerm|method|dev.powns.automath.listener.AutoMathListener$1|parseTerm|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1768|1771|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|1783|1792|parseTerm|method|dev.powns.automath.listener.AutoMathListener$1|parseTerm|()D
+         Method End: parseExpression()D
+         Method Start: parseTerm()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1853|1862|parseTerm|method|dev.powns.automath.listener.AutoMathListener$1|parseTerm|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1882|1893|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1926|1929|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|1941|1952|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|1988|1991|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2003|2014|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+         Method End: parseTerm()D
+         Method Start: parseFactor()D
+            @|dev\powns\automath\listener\AutoMathListener.java|2072|2083|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|2096|2099|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2113|2124|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|2150|2153|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2168|2179|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|2237|2240|pos|field|dev.powns.automath.listener.AutoMathListener$1|pos
+            @|dev\powns\automath\listener\AutoMathListener.java|2250|2253|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2286|2301|parseExpression|method|dev.powns.automath.listener.AutoMathListener$1|parseExpression|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|2310|2313|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2336|2338|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2349|2351|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2363|2365|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2400|2402|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2413|2415|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2427|2429|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2438|2446|nextChar|method|dev.powns.automath.listener.AutoMathListener$1|nextChar|()V
+            @|dev\powns\automath\listener\AutoMathListener.java|2459|2465|Double|class|java.lang.Double
+            @|dev\powns\automath\listener\AutoMathListener.java|2466|2477|parseDouble|method|java.lang.Double|parseDouble|(Ljava/lang/String;)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2478|2481|str|param|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D|str|0
+            @|dev\powns\automath\listener\AutoMathListener.java|2482|2491|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+            @|dev\powns\automath\listener\AutoMathListener.java|2507|2510|pos|field|dev.powns.automath.listener.AutoMathListener$1|pos
+            @|dev\powns\automath\listener\AutoMathListener.java|2529|2531|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2542|2544|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2580|2582|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2593|2595|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|2604|2612|nextChar|method|dev.powns.automath.listener.AutoMathListener$1|nextChar|()V
+            @|dev\powns\automath\listener\AutoMathListener.java|2621|2627|String|class|java.lang.String
+            @|dev\powns\automath\listener\AutoMathListener.java|2635|2638|str|param|dev.powns.automath.listener.AutoMathListener|eval|(Ljava/lang/String;)D|str|0
+            @|dev\powns\automath\listener\AutoMathListener.java|2639|2648|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+            @|dev\powns\automath\listener\AutoMathListener.java|2664|2667|pos|field|dev.powns.automath.listener.AutoMathListener$1|pos
+            @|dev\powns\automath\listener\AutoMathListener.java|2679|2690|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+            @|dev\powns\automath\listener\AutoMathListener.java|2708|2714|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2728|2732|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|2733|2737|sqrt|method|java.lang.Math|sqrt|(D)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2761|2767|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2780|2784|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|2785|2788|sin|method|java.lang.Math|sin|(D)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2789|2793|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|2794|2803|toRadians|method|java.lang.Math|toRadians|(D)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2828|2834|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2847|2851|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|2852|2855|cos|method|java.lang.Math|cos|(D)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2856|2860|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|2861|2870|toRadians|method|java.lang.Math|toRadians|(D)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2895|2901|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|2914|2918|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|2919|2922|tan|method|java.lang.Math|tan|(D)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2923|2927|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|2928|2937|toRadians|method|java.lang.Math|toRadians|(D)D
+            @|dev\powns\automath\listener\AutoMathListener.java|2963|2979|RuntimeException|class|java.lang.RuntimeException
+            @|dev\powns\automath\listener\AutoMathListener.java|3038|3054|RuntimeException|class|java.lang.RuntimeException
+            @|dev\powns\automath\listener\AutoMathListener.java|3078|3080|ch|field|dev.powns.automath.listener.AutoMathListener$1|ch
+            @|dev\powns\automath\listener\AutoMathListener.java|3098|3101|eat|method|dev.powns.automath.listener.AutoMathListener$1|eat|(I)Z
+            @|dev\powns\automath\listener\AutoMathListener.java|3112|3116|Math|class|java.lang.Math
+            @|dev\powns\automath\listener\AutoMathListener.java|3117|3120|pow|method|java.lang.Math|pow|(DD)D
+            @|dev\powns\automath\listener\AutoMathListener.java|3124|3135|parseFactor|method|dev.powns.automath.listener.AutoMathListener$1|parseFactor|()D
+         Method End: parseFactor()D
+      Anon Class End: dev.powns.automath.listener.AutoMathListener$1
+      @|dev\powns\automath\listener\AutoMathListener.java|3182|3187|parse|method|dev.powns.automath.listener.AutoMathListener|parse|()D
+   Method End: eval(Ljava/lang/String;)D
+Class End  : dev.powns.automath.listener.AutoMathListener
+endProcessing dev\powns\automath\listener\AutoMathListener.java
+
